@@ -1,0 +1,7 @@
+Tahminde Kullanılmaya hazır olan data ile değerler değiştirlerek (matlab üzerinde) tahmin yapılabilir.
+
+noralRegression.m içinde açıklamalar ile yapay zekanın kodunu içerir.
+
+EvTahmin.mat import edilebilir cikti1 structını içerir.
+
+sonucTablo.csv de eğitim ve test sonuçları görüntülenebilir.

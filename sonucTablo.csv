@@ -1,0 +1,10 @@
+Session: untitled,,,,,,,,,,,,,,,,,,
+Training Data: kchousedata    Observations: 19452,,,,,,,,,,,,,,,,,,
+"Predictors: 17    Predictor Names: bedrooms, bathrooms, sqft_living, sqft_lot, floors, waterfront, view, condition, grade, sqft_above, sqft_basement, yr_built, yr_renovated, lat, long, sqft_living15, sqft_lot15",,,,,,,,,,,,,,,,,,
+Response Name: price,,,,,,,,,,,,,,,,,,
+Validation: 10-fold cross-validation,,,,,,,,,,,,,,,,,,
+Test Data: kchousedata    Observations: 2161,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+Favorite,Model Number,Model Type,Status,RMSE (Validation),MSE (Validation),RSquared (Validation),MAE (Validation),MAE (Test),MSE (Test),RMSE (Test),RSquared (Test),Preset,MAPE % (Validation),MAPE % (Test),Prediction Speed (obs/sec),Training Time (sec),Hyperparameters,Feature Ranking Algorithm
+1,2,Neural Network,Tested,127779.833703554,16327685901.3078,0.879659751711433,74739.4699689783,71667.0800628825,13921492473.6226,117989.374409828,0.890192536323636,Custom Neural Network,14.2944483121536,14.1244339293223,54035.4046905131,795.567556,Number of fully connected layers: 3; First layer size: 300; Second layer size: 300; Third layer size: 30; Activation: ReLU; Iteration limit: 100; Regularization strength (Lambda): 0; Standardize data: Yes,None
